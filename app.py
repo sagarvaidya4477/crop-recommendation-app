@@ -63,7 +63,7 @@ st.markdown("""
 # =========================
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\DELL-PC\Downloads\crop_recommendation(2).csv")
+    return pd.read_csv("crop_recommendation(2).csv")
 
 data = load_data()
 
@@ -174,3 +174,4 @@ st.markdown("""
 🚀 Developed by <b>Sagar Vaidya</b> | AI Crop Recommendation Dashboard
 </div>
 """, unsafe_allow_html=True)
+
