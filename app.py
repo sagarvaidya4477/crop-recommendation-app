@@ -170,8 +170,7 @@ st.bar_chart(acc_df.set_index("Model"))
 # FOOTER
 # =========================
 st.markdown("""
-<div class="footer">
-🚀 Developed by <b>Sagar Vaidya</b> | AI Crop Recommendation Dashboard
-</div>
+
 """, unsafe_allow_html=True)
+
 
